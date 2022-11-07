@@ -7,24 +7,24 @@ public class Main {
         System.out.println("Exercise 1: initialisation");
         System.out.println("dog:\t" + dog + "\ncat:\t" + cat + "\npaper:\t" + paper);
 //*************************************** Exercise 2 ********************************************
-        dog = dog + 4;
-        cat = cat + 4;
-        paper = paper + 4;
+        dog += 4;
+        cat += 4;
+        paper += 4;
         System.out.println("\nExercise 2: addition");
         System.out.println("dog:\t" + dog + "\ncat:\t" + cat + "\npaper:\t" + paper);
 //*************************************** Exercise 3 ********************************************
         dog = dog - (int)3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
+        cat -= 1.6;
+        paper -= 7639;
         System.out.println("\nExercise 3: subtraction");
         System.out.println("dog:\t" + dog + "\ncat:\t" + cat + "\npaper:\t" + paper);
 //*************************************** Exercise 4 ********************************************
         var friend = 19;
         System.out.println("\nExercise 4: Multi math operations 1");
         System.out.println("initial value:\t\t" + friend);
-        friend = friend + 2;
+        friend += 2;
         System.out.println("addition operation:\t" + friend);
-        friend = friend/7;
+        friend /= 7;
         System.out.println("division operation:\t" + friend);
 
         var friendGroup2 = 19;
@@ -36,11 +36,11 @@ public class Main {
         var frog = 3.5;
         System.out.println("\nExercise 5: Multi math operations 2");
         System.out.println("initial value:\t\t\t\t" + frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println("multiplication operation:\t" + frog);
-        frog = frog/3.5;
+        frog /= 3.5;
         System.out.println("division operation:\t\t\t" + frog);
-        frog = frog + 4;
+        frog += 4;
         System.out.println("addition operation:\t\t\t" + frog);
 
         var frogGroup2 = 3.5;
@@ -73,7 +73,7 @@ public class Main {
         var numOfEmployees = totalHours/workTime;
         System.out.println("\nExercise 8: Number of employees");
         System.out.println("Number of employees:\t" + numOfEmployees);
-        numOfEmployees = numOfEmployees + 94;
+        numOfEmployees += 94;
         workTime = totalHours/numOfEmployees;
         System.out.println("If " + numOfEmployees + " employees work in a company, then " + workTime + " hours per employee in a day");
     }
