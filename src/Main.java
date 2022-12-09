@@ -142,7 +142,7 @@ public class Main {
         numOfEmployees += 94;
         totalHours = workTime * numOfEmployees;
         System.out.println("If " + numOfEmployees + " employees work in a company, then " + totalHours +
-                                                                    " hours could be shared between employees");
+                " hours could be shared between employees");
 
         //*************************************** Extra Exercise 6 ***************************************
         /*
@@ -158,7 +158,7 @@ public class Main {
         int e = 9;
 
         int result = a * (b + (c - d * e));
-        System.out.println("Extra Exercise 6");
+        System.out.println("\nExtra Exercise 6");
         System.out.println(result);
         result *= -1;
         System.out.println(result);
@@ -171,7 +171,7 @@ public class Main {
         */
         a = 5;
         b = 7;
-        System.out.println("\nExercise 7");
+        System.out.println("\nExtra Exercise 7");
         System.out.println("a = " + a + "\tb = " + b);
         a = a + b;
         b = a - b;
@@ -189,7 +189,7 @@ public class Main {
         корректного значения в b нельзя, так как при каждом изменении значения в a её нужно пересчитывать.
         */
         a = 193;
-        System.out.println("\nExercise 8");
+        System.out.println("\nExtra Exercise 8");
         System.out.println("Initial value: " + a);
         a = a % 100;
         b = a % 10;
